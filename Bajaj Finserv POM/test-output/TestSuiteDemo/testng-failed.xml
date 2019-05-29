@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuiteDemo]">
+  <test name="BFLTest">
+    <classes>
+      <class name="com.datamato.tests.WelcomePageTest"/>
+      <class name="com.datamato.tests.PersonalLoanTest"/>
+      <class name="com.datamato.tests.PocketInsuranceTest"/>
+    </classes>
+  </test> <!-- BFLTest -->
+</suite> <!-- Failed suite [TestSuiteDemo] -->

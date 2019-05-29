@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuiteDemo" duration-ms="257372" started-at="2019-05-29T14:09:20Z" finished-at="2019-05-29T14:13:37Z">
+    <groups>
+    </groups>
+    <test name="BFLTest" duration-ms="257372" started-at="2019-05-29T14:09:20Z" finished-at="2019-05-29T14:13:37Z">
+      <class name="com.datamato.tests.WelcomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.datamato.tests.WelcomePageTest@7a79be86]" name="setup" is-config="true" duration-ms="136307" started-at="2019-05-29T19:37:04Z" finished-at="2019-05-29T19:39:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.WelcomePageTest@7a79be86]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-29T19:39:20Z" finished-at="2019-05-29T19:39:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.WelcomePageTest.welcomeTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="welcomeTest()[pri:1, instance:com.datamato.tests.WelcomePageTest@7a79be86]" name="welcomeTest" duration-ms="3822" started-at="2019-05-29T19:39:20Z" finished-at="2019-05-29T19:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomeTest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.WelcomePageTest@7a79be86]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-29T19:39:24Z" finished-at="2019-05-29T19:39:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.WelcomePageTest.welcomeTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testExistingUserTest()[pri:0, instance:com.datamato.tests.WelcomePageTest@7a79be86]" name="testExistingUserTest" duration-ms="8063" started-at="2019-05-29T19:39:24Z" depends-on-methods="com.datamato.tests.WelcomePageTest.welcomeTest" finished-at="2019-05-29T19:39:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExistingUserTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.WelcomePageTest@7a79be86]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-29T19:39:24Z" finished-at="2019-05-29T19:39:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.WelcomePageTest.testExistingUserTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.WelcomePageTest@7a79be86]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-29T19:39:32Z" finished-at="2019-05-29T19:39:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.WelcomePageTest.testExistingUserTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.WelcomePageTest@7a79be86]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-29T19:39:32Z" finished-at="2019-05-29T19:39:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.WelcomePageTest.loginWithExistingUsersCredentialsTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginWithExistingUsersCredentialsTest()[pri:0, instance:com.datamato.tests.WelcomePageTest@7a79be86]" name="loginWithExistingUsersCredentialsTest" duration-ms="14656" started-at="2019-05-29T19:39:32Z" depends-on-methods="com.datamato.tests.WelcomePageTest.testExistingUserTest" finished-at="2019-05-29T19:39:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithExistingUsersCredentialsTest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.WelcomePageTest@7a79be86]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-29T19:39:47Z" finished-at="2019-05-29T19:39:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.WelcomePageTest.loginWithExistingUsersCredentialsTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.WelcomePageTest@7a79be86]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-29T19:39:47Z" finished-at="2019-05-29T19:39:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.WelcomePageTest.recommendedOffersTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="recommendedOffersTest()[pri:0, instance:com.datamato.tests.WelcomePageTest@7a79be86]" name="recommendedOffersTest" duration-ms="11420" started-at="2019-05-29T19:39:47Z" depends-on-methods="com.datamato.tests.WelcomePageTest.loginWithExistingUsersCredentialsTest" finished-at="2019-05-29T19:39:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recommendedOffersTest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.WelcomePageTest@7a79be86]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-29T19:39:58Z" finished-at="2019-05-29T19:39:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.WelcomePageTest.recommendedOffersTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datamato.tests.WelcomePageTest@7a79be86]" name="tearDown" is-config="true" duration-ms="1925" started-at="2019-05-29T19:43:38Z" finished-at="2019-05-29T19:43:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.datamato.tests.WelcomePageTest -->
+      <class name="com.datamato.tests.PocketInsuranceTest">
+        <test-method status="PASS" signature="scrollDownTillPocketInsuranceAndClickOnSeeDetailsTest()[pri:1, instance:com.datamato.tests.PocketInsuranceTest@7f63425a]" name="scrollDownTillPocketInsuranceAndClickOnSeeDetailsTest" duration-ms="22284" started-at="2019-05-29T19:40:29Z" finished-at="2019-05-29T19:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollDownTillPocketInsuranceAndClickOnSeeDetailsTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.PocketInsuranceTest@7f63425a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-29T19:40:29Z" finished-at="2019-05-29T19:40:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.PocketInsuranceTest.scrollDownTillPocketInsuranceAndClickOnSeeDetailsTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.PocketInsuranceTest@7f63425a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-29T19:40:51Z" finished-at="2019-05-29T19:40:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.PocketInsuranceTest.scrollDownTillPocketInsuranceAndClickOnSeeDetailsTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.PocketInsuranceTest@7f63425a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-29T19:40:51Z" finished-at="2019-05-29T19:40:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.PocketInsuranceTest.travelPocketinsuranceTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="travelPocketinsuranceTest()[pri:0, instance:com.datamato.tests.PocketInsuranceTest@7f63425a]" name="travelPocketinsuranceTest" duration-ms="9092" started-at="2019-05-29T19:40:51Z" depends-on-methods="com.datamato.tests.PocketInsuranceTest.scrollDownTillPocketInsuranceAndClickOnSeeDetailsTest" finished-at="2019-05-29T19:41:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travelPocketinsuranceTest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.PocketInsuranceTest@7f63425a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-29T19:41:00Z" finished-at="2019-05-29T19:41:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.PocketInsuranceTest.travelPocketinsuranceTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="pilgrimageCoverKnowMoreTest()[pri:0, instance:com.datamato.tests.PocketInsuranceTest@7f63425a]" name="pilgrimageCoverKnowMoreTest" duration-ms="138564" started-at="2019-05-29T19:41:00Z" depends-on-methods="com.datamato.tests.PocketInsuranceTest.travelPocketinsuranceTest" finished-at="2019-05-29T19:43:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pilgrimageCoverKnowMoreTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.PocketInsuranceTest@7f63425a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-29T19:41:00Z" finished-at="2019-05-29T19:41:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.PocketInsuranceTest.pilgrimageCoverKnowMoreTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.PocketInsuranceTest@7f63425a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-29T19:43:19Z" finished-at="2019-05-29T19:43:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.PocketInsuranceTest.pilgrimageCoverKnowMoreTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="pilgrimageCoverApplyNowTest()[pri:0, instance:com.datamato.tests.PocketInsuranceTest@7f63425a]" name="pilgrimageCoverApplyNowTest" duration-ms="10250" started-at="2019-05-29T19:43:19Z" depends-on-methods="com.datamato.tests.PocketInsuranceTest.pilgrimageCoverKnowMoreTest" finished-at="2019-05-29T19:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pilgrimageCoverApplyNowTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.PocketInsuranceTest@7f63425a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-29T19:43:19Z" finished-at="2019-05-29T19:43:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.PocketInsuranceTest.pilgrimageCoverApplyNowTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.PocketInsuranceTest@7f63425a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-29T19:43:29Z" finished-at="2019-05-29T19:43:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.PocketInsuranceTest.pilgrimageCoverApplyNowTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="pilgrimageCoverBrochureTest()[pri:0, instance:com.datamato.tests.PocketInsuranceTest@7f63425a]" name="pilgrimageCoverBrochureTest" duration-ms="8379" started-at="2019-05-29T19:43:29Z" depends-on-methods="com.datamato.tests.PocketInsuranceTest.pilgrimageCoverApplyNowTest" finished-at="2019-05-29T19:43:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pilgrimageCoverBrochureTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.PocketInsuranceTest@7f63425a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-29T19:43:29Z" finished-at="2019-05-29T19:43:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.PocketInsuranceTest.pilgrimageCoverBrochureTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.PocketInsuranceTest@7f63425a]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-29T19:43:37Z" finished-at="2019-05-29T19:43:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.PocketInsuranceTest.pilgrimageCoverBrochureTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.datamato.tests.PocketInsuranceTest -->
+      <class name="com.datamato.tests.PersonalLoanTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.PersonalLoanTest@880ec60]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-29T19:39:58Z" finished-at="2019-05-29T19:39:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.PersonalLoanTest.calculatorTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="calculatorTest()[pri:1, instance:com.datamato.tests.PersonalLoanTest@880ec60]" name="calculatorTest" duration-ms="10936" started-at="2019-05-29T19:39:58Z" finished-at="2019-05-29T19:40:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculatorTest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.PersonalLoanTest@880ec60]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-29T19:40:09Z" finished-at="2019-05-29T19:40:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.PersonalLoanTest.calculatorTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="applyNowTest()[pri:0, instance:com.datamato.tests.PersonalLoanTest@880ec60]" name="applyNowTest" duration-ms="9671" started-at="2019-05-29T19:40:09Z" depends-on-methods="com.datamato.tests.PersonalLoanTest.calculatorTest" finished-at="2019-05-29T19:40:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyNowTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.PersonalLoanTest@880ec60]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-29T19:40:09Z" finished-at="2019-05-29T19:40:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.PersonalLoanTest.applyNowTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.PersonalLoanTest@880ec60]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-29T19:40:19Z" finished-at="2019-05-29T19:40:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.PersonalLoanTest.applyNowTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.PersonalLoanTest@880ec60]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-29T19:40:19Z" finished-at="2019-05-29T19:40:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.PersonalLoanTest.seeDetailsTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="seeDetailsTest()[pri:0, instance:com.datamato.tests.PersonalLoanTest@880ec60]" name="seeDetailsTest" duration-ms="10178" started-at="2019-05-29T19:40:19Z" depends-on-methods="com.datamato.tests.PersonalLoanTest.applyNowTest" finished-at="2019-05-29T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seeDetailsTest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.PersonalLoanTest@880ec60]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-29T19:40:29Z" finished-at="2019-05-29T19:40:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.PersonalLoanTest.seeDetailsTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.datamato.tests.PersonalLoanTest -->
+    </test> <!-- BFLTest -->
+  </suite> <!-- TestSuiteDemo -->
+</testng-results>

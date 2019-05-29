@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuiteDemo" verbose="1">
+	<test name="BFLTest">
+		<classes>
+			<class name="com.datamato.tests.WelcomePageTest">
+			</class>
+			<class name="com.datamato.tests.PersonalLoanTest">
+			</class>
+			<class name="com.datamato.tests.PocketInsuranceTest">
+			</class>
+		</classes>
+	</test>
+</suite> 
+ 
